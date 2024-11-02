@@ -1,0 +1,6 @@
+@ReserveSpot.Api_HostAddress = http://localhost:5029
+
+GET {{ReserveSpot.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

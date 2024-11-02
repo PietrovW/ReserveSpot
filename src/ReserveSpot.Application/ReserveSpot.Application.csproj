@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Reservation\V1\Queries\Details\" />
+    <Folder Include="Services\" />
+    <Folder Include="Reservation\V1\Common\Update\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReserveSpot.Domain\ReserveSpot.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
